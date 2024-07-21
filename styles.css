@@ -1,0 +1,88 @@
+body {
+    font-family:monospace;
+    background-color: #f0f0f0;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-image:url("./pokebola.png");
+    background-repeat:repeat;
+    background-position: 100%;
+    background-size: 20%;
+}
+
+.container {
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    overflow: hidden;
+    width: 80%;
+    margin: 80px auto 0; /* Adicionado para evitar que o conteúdo fique sob o título */
+    max-width: 600px;
+}
+
+h1 {
+    text-align: center;
+    font-family:cursive;
+    background-color: #06b431;
+    color: #fff;
+    margin: 0;
+    padding: 20px;
+}
+
+.pokemon-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 20px;
+    padding-top: 80px; /* Espaçamento adicionado para evitar sobreposição */
+    margin-top: 1100px;
+
+}
+
+.pokemon-card {
+    background-color: #f8f8f8;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    border: 3px solid #3498db; /* Adiciona uma borda azul de 3px */
+    margin: 10px;
+    padding: 20px;
+    text-align: center;
+    width: 120px;
+    transition: transform 0.2s,border-color 0.3s; /* Adiciona transição para a cor da borda */
+}
+
+.pokemon-card:hover {
+    transform: scale(1.1);
+    border-color: #e74c3c; /* Muda a cor da borda ao passar o mouse (vermelho) */
+}
+
+.pokemon-card img {
+    width: 80px;
+    height: 80px;
+}
+
+.pokemon-card h2 {
+    font-size: 1.2em;
+    margin: 10px 0 5px;
+}
+
+.pokemon-card p {
+    margin: 5px 0;
+}
+.fixed-title {
+    text-align: center;
+    background-color: rgba(255, 17, 0, 0.8); /* Vermelho com 80% de opacidade */
+    color: #fff;
+    margin: 0;
+    padding: 20px;
+    width: 100%;
+    position:fixed;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+    box-sizing: border-box;
+}

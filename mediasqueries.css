@@ -1,0 +1,35 @@
+@media (max-width: 600px) {
+    .fixed-title {
+        font-size: 1.5em;
+        padding: 25px;
+    }
+
+    .container {
+        width: 95%; /* Aumenta a largura em telas menores */
+        margin: 100px auto 0; /* Ajusta o margin para telas menores */
+    }
+
+    .pokemon-list {
+        padding-top: 10px; /* Menos padding para telas menores */
+    }
+
+    .pokemon-card {
+        width: 100px; /* Reduz a largura dos cards */
+        padding: 15px; /* Ajusta o padding */
+        margin: 5px; /* Reduz a margem */
+    }
+
+    .pokemon-card img {
+        width: 60px; /* Reduz a largura da imagem */
+        height: 60px; /* Reduz a altura da imagem */
+    }
+
+    .pokemon-card h2 {
+        font-size: 1em; /* Reduz o tamanho da fonte do título */
+    }
+}
+
+
+
+
+
